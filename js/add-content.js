@@ -1,6 +1,11 @@
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
+var person = prompt("pleas enter your name","hanan");
+
+if (person != null) {
+  document.write("hello" + person + "How are you today?");
+}
 if (hourNow > 18) {
  greeting = 'Good evening, Class!';
  } else if (hourNow > 12) {
